@@ -14,6 +14,7 @@ pip install numpy
 ## Run
 ```
 python 332-palette.py
+# Create a new image called quantized-image332.jpg
 ```
 
 ## Result

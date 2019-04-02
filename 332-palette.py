@@ -29,7 +29,7 @@ class ColorQuantization():
 
   # Save an image in the project folder
   def save_image(self, img):
-    name = 'image332.jpg'
+    name = 'quantized-image332.jpg'
     Image.fromarray(img).save(name)
 
 image = np.array(Image.open('img/t1.jpg').convert('RGB'))
